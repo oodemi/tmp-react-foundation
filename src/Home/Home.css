@@ -12,7 +12,10 @@
 }
 
 .threadCreateLink {
-  display: inline-block;
+  border-radius: 100px;
+  background-color: #D93900;
+  padding: 8px 16px;
+  color: #fff;
 }
 
 .threadsListItem {
