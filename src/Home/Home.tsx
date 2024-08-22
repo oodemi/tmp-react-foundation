@@ -25,11 +25,11 @@ export default function Home() {
       <Header>
         <Link to="/threads/new" className='threadCreateLink' >スレッドをたてる</Link>
       </Header >
-      <section className='threadContainer'>
-        <h1>新着スレッド</h1>
-        <ul>
+      <section className='threadsContainer'>
+        <h1 className='pageTitle'>New Threads</h1>
+        <ul className='threadsList'>
           {threads.map(thread => (
-            <li className='threadCord' key={thread.id}>{thread.title}</li>
+            <li className='threadsListItem' key={thread.id}>{thread.title}</li>
           ))}
         </ul>
       </section>

@@ -1,12 +1,21 @@
+.threadsContainer {
+  padding: 24px;
+}
+
 .pageTitle {
   font-size: 24px;
+  font-weight: bold;
+}
+
+.threadsList {
+  margin-top: 16px;
 }
 
 .threadCreateLink {
   display: inline-block;
 }
 
-.threadCord {
-  border: 1px solid black;
-  padding: 24px;
+.threadsListItem {
+  border-top: 1px solid #c5c5c5;
+  padding: 24px 16px;
 }
