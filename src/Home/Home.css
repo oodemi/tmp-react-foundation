@@ -2,18 +2,6 @@ body {
   margin: 0;
 }
 
-.headerContainer {
-  background-color: #8ab6b6ad;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 32px 42px;
-}
-
-.homeHeader {
-  font-size: 32px;
-}
-
 .threadCreateLink {
   display: inline-block;
 }
