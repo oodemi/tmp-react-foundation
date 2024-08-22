@@ -1,0 +1,32 @@
+.pageTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  padding: 24px;
+}
+
+.threadCreateForm {
+  margin-top: 16px;
+}
+.threadTitleInputLabel {
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.threadTitleInput {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 16px;
+}
+
+.createButton {
+  margin-left: 16px;
+  background-color: #202020;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 100px;
+}
