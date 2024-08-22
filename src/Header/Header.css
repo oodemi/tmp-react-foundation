@@ -1,9 +1,10 @@
 .headerContainer {
-  background-color: #8ab6b6ad;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 42px;
+  border-bottom: 1px solid #c5c5c5;
+  padding: 8px 24px;
 }
 
 .homeHeader {
